@@ -1,7 +1,7 @@
 # Animated Plot Examples
 
 This repository contains several example ways to produce animated plots.
-Many of these examples have been adapted from `https://matplotlib.org/3.1.1/api/animation_api.html`.
+Many of these examples have been adapted from [https://matplotlib.org/3.1.1/api/animation_api.html](https://matplotlib.org/3.1.1/api/animation_api.html).
 
 In order to save any of the animations, you need to have ffmpeg or another video codex installed.
 If using an anaconda system, use `conda install -c conda-forge ffmpeg` to install the codex.
