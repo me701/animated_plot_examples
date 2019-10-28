@@ -1,17 +1,19 @@
-# animated_plot_examples
+# Animated Plot Examples
 
-This repository contains several example ways to produce animated plots
+This repository contains several example ways to produce animated plots.
+Many of these examples have been adapted from `https://matplotlib.org/3.1.1/api/animation_api.html`.
 
-In order to save any of the animations, you need to have ffmpeg or another video codex installed
+In order to save any of the animations, you need to have ffmpeg or another video codex installed.
+If using an anaconda system, use `conda install -c conda-forge ffmpeg` to install the codex.
 
-If using an anaconda system, use `conda install -c conda-forge ffmpeg` to install the program
+The following examples explore the two main ways to animate plots, which is via function animation or artist animation.
 
 ## 1D_func_animation.py
 
 This script is designed to create a standard 1-D plot animation using function animation.
 Function animation provides a function that will update the plot in some way, e.g., changing the data.
 
-## multilineFuncAnimation.py
+## multiline_func_animation.py
 
 This script provides an example of how to control multiple 1-D plots simultaneously.
 
